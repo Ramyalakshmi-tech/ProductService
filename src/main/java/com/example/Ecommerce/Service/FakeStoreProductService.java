@@ -14,9 +14,9 @@ import java.util.List;
 import java.util.Objects;
 
 @Service
-public class productService implements iProductService {
+public class FakeStoreProductService implements iProductService {
     RestTemplateBuilder restTemplate;
-    public productService(RestTemplateBuilder restTemplate){
+    public FakeStoreProductService(RestTemplateBuilder restTemplate){
             this.restTemplate=restTemplate;
     }
 @Override

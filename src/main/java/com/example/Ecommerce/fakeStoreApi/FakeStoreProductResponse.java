@@ -7,7 +7,7 @@ public class FakeStoreProductResponse {
     String id;
     String title;
     Double price;
-    String Description;
+    String description;
     String category;
     String image;
     Rating rating;
